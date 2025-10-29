@@ -16,6 +16,7 @@ How does r repeat?
 6. Hardware / firmware faults: buggy devices can unintentionally reuse nonces (e.g., after power loss).
 
    Why is this dangerous
+   
 Because the nonce k is the core secret that makes each signature unique. If the same k is used twice with the same private key, the signatures alone (no access to the private key required) may allow an attacker to compute the private key. In short: nonce reuse breaks the security goal of signatures.
 
 What you should do (safety tips)
