@@ -1,7 +1,7 @@
 # reused-r-bitcoin
 a set of tools that help implement the r-repeat vulnerability attack
 
-theese tools are for educational purposes. Any incorrect or harmful use is the responsibility of the user.
+these tools are for educational purposes. Any incorrect or harmful use is the responsibility of the user.
 
 What is “r-repeat”
 r-repeat means the same ECDSA nonce (k) — and thus the same r value — was used more than once with the same private key in Bitcoin signatures. If that happens, the signatures leak enough information that someone could recover the private key. This turns otherwise secure signatures into a critical vulnerability.
