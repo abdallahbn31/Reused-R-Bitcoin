@@ -24,3 +24,22 @@ What you should do (safety tips)
 4. Never reuse a private key across unrelated apps/chains.
 5. Avoid brainwallets or passwords-as-keys; use proper key generation.
 6. Monitor signatures: detect repeated r values and act immediately if found.
+
+Requirements :
+Python 3.10 or newer
+Sufficient free storage space to download transaction data (depends on analysis size)
+Internet connection when fetching blockchain data or using APIs
+
+Security Notice :
+These tools are designed purely for analysis and research — they do not collect any user data, results, or personal information in any form.
+Running the tools with an internet connection is safe, as long as you trust the source.
+You can always review the source code yourself to verify what each tool does and ensure it meets your security standards.
+
+Required Python Packages
+The scripts require the following Python libraries:
+• requests
+pip install requests
+• tqdm
+pip install tqdm
+• ecdsa
+pip install ecdsa
