@@ -1,5 +1,7 @@
 # reused-r-bitcoin
-a set of tools that help implement the r-repeat vulnerability attack
+Detection & research tools for repeated ECDSA & Schnorr nonces (r) in Bitcoin transactions
+
+
 
 ⚠️ important :
 
