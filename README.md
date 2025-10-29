@@ -1,6 +1,8 @@
 # reused-r-bitcoin
 a set of tools that help implement the r-repeat vulnerability attack
 
+⚠️ important :
+
 these tools are for educational purposes. Any incorrect or harmful use is the responsibility of the user.
 
 What is “r-repeat” :
