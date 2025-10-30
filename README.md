@@ -54,7 +54,7 @@ The scripts require the following Python libraries:
 • requests
 
 ```bash
-pip install requests
+pip install requests```
 
 • tqdm
 
