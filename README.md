@@ -50,15 +50,16 @@ You can always review the source code yourself to verify what each tool does and
 Required Python Packages :
 
 The scripts require the following Python libraries:
-```bash
+
 • requests
-```
+```bash
 pip install requests
-
+```
 • tqdm
-
+```bash
 pip install tqdm
-
+```
 • ecdsa
-
+```bash
 pip install ecdsa
+```
