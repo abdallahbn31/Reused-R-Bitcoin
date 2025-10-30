@@ -53,17 +53,12 @@ The scripts require the following Python libraries:
 
 • requests
 
-```bash
 pip install requests
-
 
 • tqdm
 
-```bash
 pip install tqdm
-
 
 • ecdsa
 
-```bash
 pip install ecdsa
