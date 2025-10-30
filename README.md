@@ -53,7 +53,7 @@ The scripts require the following Python libraries:
 
 • requests
 
-'''bash
+```bash
 pip install requests
 
 • tqdm
