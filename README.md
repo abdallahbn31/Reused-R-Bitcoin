@@ -9,7 +9,7 @@ these tools are for educational purposes. Any incorrect or harmful use is the re
 
 What is “r-repeat” :
 
-r-repeat means the same ECDSA nonce (k) — and thus the same r value — was used more than once with the same private key in Bitcoin signatures. If that happens, the signatures leak enough information that someone could recover the private key. This turns otherwise secure signatures into a critical vulnerability.
+r-repeat means the same ECDSA or Schnorr nonce (k) — and thus the same r value — was used more than once with the same private key in Bitcoin signatures. If that happens, the signatures leak enough information that someone could recover the private key. This turns otherwise secure signatures into a critical vulnerability.
 
 How does r repeat? :
 1. Weak or insufficient randomness (CSPRNG): the system or device didn’t provide enough entropy when signing.
