@@ -50,15 +50,15 @@ You can always review the source code yourself to verify what each tool does and
 Required Python Packages :
 
 The scripts require the following Python libraries:
-```markdown
+```bash
 • requests
-```bash
+```
 pip install requests
-```markdown
+
 • tqdm
-```bash
+
 pip install tqdm
-```markdown
+
 • ecdsa
-```bash
+
 pip install ecdsa
