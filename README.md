@@ -64,7 +64,8 @@ pip install tqdm
 pip install ecdsa
 ```
 How to operate tools + example :
-This is a list of titles that included the r-duplication vulnerability :
+
+This is a list of addresses that included the r-duplication vulnerability :
 ```bash
 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
 112KZ24UgNndZqdnu2cXwXStSjtY78ZRUh
