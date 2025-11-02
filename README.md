@@ -296,3 +296,13 @@ usage :
 ```bash
 python3 cut_r2.py
 ```
+Then you can change csv file name to "der_full_summary.csv" to continue working 
+```bash
+compute_z.py
+```
+This script calculates z value
+
+usage :
+```bash
+python3 compute_z.py --input der_full_summary.csv --output der_with_z.csv --fetch-prevouts
+```
