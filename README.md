@@ -204,3 +204,8 @@ This is a list of addresses that included the r-duplication vulnerability :
 1sgNrgAnjMVSzyeMDTeVsKN7FuZy34U5t
 1vdbVPC6Ts9d5WhRDriPdndvvCwmCbKCj
 ```
+Let's choose this address
+```bash
+1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
+```
+1• collecting transactions
