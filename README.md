@@ -232,3 +232,36 @@ You can use command (--resume --append) To continue collecting transactions wher
 frt_ultra.py
 ```
 This script like the first one, but with advanced options.
+
+For example, we have this address 
+```bash
+1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+This address has over 52,000 transactions, and that's a large number, Let's say you only want the 100 oldest transactions
+
+First, you will enter this explorer
+```bash
+https://bitcoin.atomicwallet.io/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+This explorer allows you to browse all transactions, even if there are many, without loading each transaction into a very long sequence.
+
+Each page contains 25 transactions, You will go to the last page, for example, page 2096 
+
+Then calculate the number of transactions you want to collect. For example 
+
+100÷25=4
+1000÷25=40
+10000÷25=400
+
+Then subtract a number of pages from the total number.
+
+2096-40=2056
+
+usage :
+```bash
+python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2056 --end-page 2096
+```
+```baah
+python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2015 --end-page 2055 --resume --append
+```
+(--resume --append) command to continue collecting
