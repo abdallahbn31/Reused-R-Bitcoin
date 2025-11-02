@@ -267,3 +267,5 @@ python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2056 --e
 python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2015 --end-page 2055 --resume --append
 ```
 (--resume --append) command to continue collecting
+
+2• analyze
