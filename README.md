@@ -250,7 +250,9 @@ Each page contains 25 transactions, You will go to the last page, for example, p
 Then calculate the number of transactions you want to collect. For example 
 
 100÷25=4
+
 1000÷25=40
+
 10000÷25=400
 
 Then subtract a number of pages from the total number.
