@@ -326,3 +326,4 @@ usage :
 ```bash
 python3 ext_schnorr_extras.py rawtxs.txt --fetch-prev
 ```
+3• computing private key 
