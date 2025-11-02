@@ -211,5 +211,7 @@ Let's choose this address
 1• collecting transactions
 
 Raw transactions containing values and signatures
-
-fetch_raw_txs.py This script collects raw transactions from a target address.
+```bash
+fetch_raw_txs.py
+```
+This script collects raw transactions from a target address.
