@@ -215,3 +215,5 @@ Raw transactions containing values and signatures
 fetch_raw_txs.py
 ```
 This script collects raw transactions from a target address.
+
+usage :
