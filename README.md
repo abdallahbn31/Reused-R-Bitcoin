@@ -306,3 +306,22 @@ usage :
 ```bash
 python3 compute_z.py --input der_full_summary.csv --output der_with_z.csv --fetch-prevouts
 ```
+Additions :
+```bash
+ate_ultra.py
+```
+This script similar to analysis script, but with additional features such as sorting signatures according to protocol.
+
+usage :
+```bash
+python3 ate_ultra.py rawtxs.txt
+```
+```bash
+ext_schnorr_extras.py
+```
+This script extracts additional information for Schnorr Protocol
+
+usage :
+```bash
+python3 ext_schnorr_extras.py rawtxs.txt --fetch-prev
+```
