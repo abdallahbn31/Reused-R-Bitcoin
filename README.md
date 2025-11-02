@@ -263,9 +263,36 @@ usage :
 ```bash
 python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2056 --end-page 2096
 ```
-```baah
+```bash
 python3 frt_ultra.py -a 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa --start-page 2015 --end-page 2055 --resume --append
 ```
 (--resume --append) command to continue collecting
 
 2• analyze
+
+Analyzing transactions to extract values used to calculate private key
+```bash
+analyze_txs_enhanced.py
+```
+This is script that analyzes
+
+usage :
+```bash
+python3 analyze_txs_enhanced.py rawtxs.txt
+```
+This script will generate file named "der_full_summary.csv" containing values.
+
+The file size can be so large that it is unreadable (file size depends on the analysis; for example, analyzing many transactions, such as 10,000 transactions, might produce a file size of 10+ GB).
+
+You can use this script 
+```bash
+cut_r2.py
+```
+This script should be in the same folder as the csv file.
+
+script will read csv file and extract all the lines in which "r" is repeated.
+
+usage :
+```bash
+python3 cut_r2.py
+```
