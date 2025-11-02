@@ -209,3 +209,7 @@ Let's choose this address
 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
 ```
 1• collecting transactions
+
+Raw transactions containing values and signatures
+
+fetch_raw_txs.py This script collects raw transactions from a target address.
