@@ -344,7 +344,7 @@ z value for each signature (z_mod_n In CSV file) (Value of the first and second 
 
 The values must be integers.
 
-z value (z_mod_n) is already integer
+z values (z_mod_n) is already integer
 
 You must convert (r-s1-s2) values from Hex to an integer
 
@@ -359,4 +359,48 @@ script will convert values and write them to new file.
 usage :
 ```bash
 python hex_to_number.py hex.txt
+```
+for example (1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU)
+
+When analyzing the transactions of this address, we will find four instances (four signatures) of r repetition (one r value - four s value - four z value)
+
+We will use values from the first and second signatures :
+
+repeated r: hex(00cabc3692f1f7ba75a8572dc5d270b35bcc00650534f6e5ecd6338e55355454d5) int(91699739317935258627372771550459504326006289891191381848862551863464593478869)
+
+s1: hex(00f65bfc44435a91814c142a3b8ee288a9183e6a3f012b84545d1fe334ccfac25e) int(111431484914827310314108809136597661506085346855505784425577929088113412063838)
+
+s2: hex(00b584c5e2f26eaac9510307f466d13f8d4e8f57b1323cc4151ff6ffeb6747ca9b) int(82103215168631327946455936234377737221280608082064931975396899914217832303259)
+
+z1: int(70121596733354710270739379126478863332897631323035990573894949033544740983882)
+
+z2: int(42691526897907875236967398205101700537962275948723679969547592971981809076177)
+```bash
+compute_x.py
+```
+This script calculates the private key.
+
+Before running it, you must open it with a text editor and change the values (r-s1-s2-z1-z2) (Do not change n value) (values must be integers)
+
+usage :
+```bash
+python3 compute_x.py
+```
+script will print the results
+
+for example:
+```bash
+s_diff = 29328269746195982367652872902219924284804738773440852450181029173895579760579
+z_diff = 27430069835446835033771980921377162794935355374312310604347356061562931907705
+k (decimal) = 12345678
+k (hex)     = 0xbc614e
+x (decimal) = 36985158630392181731692032973660058930135418234446520253368071243468798761122
+x (hex)     = 0x51c4dba2c28fc89b208550477a514c87f9d0db0354f03b7c61f08c0a0e3118a2
+verification ok: True
+```
+x (hex) is the private key
+
+To convert a X(HEX) to WIF, use this script.
+```bash
+wif.py
 ```
