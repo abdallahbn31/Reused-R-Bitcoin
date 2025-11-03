@@ -400,7 +400,7 @@ verification ok: True
 ```
 x (hex) is the private key
 
-To convert a X(HEX) to WIF, use this script.
+To convert x(hex) to WIF, use this script.
 ```bash
 wif.py
 ```
