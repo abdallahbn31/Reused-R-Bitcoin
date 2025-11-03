@@ -408,7 +408,7 @@ wif.py
 ```
 Create file named "xhex.txt" and place it in the same folder, then write x(hex) values in it
 
-script will read file and produce WIF (compressed / uncompressed) With all possibilities with derivatives for each type of address, along with a balance check.
+script will read file and produce WIF (compressed / uncompressed) With all possibilities with derivatives for each type of address(p2pkh / p2sh / p2wpkh / p2tr), along with a balance check.
 
 usage :
 ```bash
@@ -420,4 +420,4 @@ for example:
 ```bash
 5JSJG3nX6z1rsfZ9EZTtbi4qy82TzjGLBpyPzGm7hPRazzrqYzA
 ```
-This is WIF(uncompressed)to 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
+This is WIF(uncompressed - p2pkh)to 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
