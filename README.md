@@ -306,6 +306,8 @@ usage :
 ```bash
 python3 compute_z.py --input der_full_summary.csv --output der_with_z.csv --fetch-prevouts
 ```
+The script will create a file named "der_with_z.csv". This file is required to calculate the private key. 
+
 Additions :
 ```bash
 ate_ultra.py
