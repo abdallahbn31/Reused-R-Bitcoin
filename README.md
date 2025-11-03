@@ -406,3 +406,18 @@ To convert x(hex) to WIF, use this script.
 ```bash
 wif.py
 ```
+Create file named "xhex.txt" and place it in the same folder, then write x(hex) values in it
+
+script will read file and produce WIF (compressed / uncompressed) With all possibilities with derivatives for each type of address, along with a balance check.
+
+usage :
+```bash
+python3 wif.py --file xhex.txt --out mywifs.csv
+```
+file named "mywifs.csv" will be produced containing the results.
+
+for example:
+```bash
+5JSJG3nX6z1rsfZ9EZTtbi4qy82TzjGLBpyPzGm7hPRazzrqYzA
+```
+This is WIF(uncompressed)to 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
