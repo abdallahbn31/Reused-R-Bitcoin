@@ -421,3 +421,49 @@ for example:
 5JSJG3nX6z1rsfZ9EZTtbi4qy82TzjGLBpyPzGm7hPRazzrqYzA
 ```
 This is WIF(uncompressed - p2pkh)to 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
+
+Additions :
+```bash
+sc_r.py
+```
+This script calculates  private key for the schnorr protocol. 
+
+usage :
+```bash
+python3 sc_r.py \
+  --Rx 0a1b2c3d4e5f60718293a4b5c6d7e8f90123456789abcdef0123456789abcdef \
+  --Px 1f2e3d4c5b6a79880796a5b4c3d2e1f0a9b8c7d6e5f40123456789abcdef0123 \
+  --s1 0x8a3f1b2c4d5e6f7091a2b3c4d5e6f7089a1b2c3d4e5f60123456789abcdef012 \
+  --m1 "hello world" \
+  --s2 0x7b2e3c4d5f6a7b8091a2b3c4d5e6f70123456789abcdef0123456789abcdef01 \
+  --m2 "other message"
+```
+Change the values
+
+It will print the results  
+
+For example :
+```bash
+=== Result ===
+e1 = 108970234477436902694766334568020749912403966361468773267923272186995557531266e2 = 66856546383303793989981220542885447886729718496899420254699013163356773868462
+s1 = 62530672011108711400438125813195380086512239951027680111811469263325183799314
+s2 = 55716171531466744293207597776544084512684920955164725164723036609180125228801
+s_diff (s1-s2 mod n) = 6814500479641967107230528036651295573827318995862954947088432654145058570513
+e_diff (e1-e2 mod n) = 42113688094133108704785114025135302025674247864569353013224259023638783662804
+
+Recovered private key x (decimal): 47206142724068971842463861168325724021122544036124670454439260535612937450174
+Recovered private key x (hex)    : 0x685dbadd6c6726922fd9f2b703c7763b4cb00c7078fea84179664a7c0eb5b2be
+
+WIF (mainnet, compressed): KziatDAHb89WXx8xB8uUbAAJ62LpDkGGpbv465vGHfpPzYGcddoQ
+WIF (mainnet, uncompressed): 5JcFUTmhTmDMHXcnaZbzubhd3VrMDQPwngBD2c6iynx9PCyXBC1
+```
+Support the Project :
+
+If you find this project useful or it helped you in any way, consider supporting me!
+
+Donate :
+
+BTC
+```bash
+bc1qtxctgmaxwh73h22h862epj3a7yc3tdl2j45aep
+```
