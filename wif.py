@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2025 Abdallah
 # Licensed under the GNU GPLv3
+# Repo: https://github.com/abdallahbn31/reused-r-bitcoin
 """
 wif.py
 Read private key hex/decimal or file of keys -> produce WIFs and derive addresses:
