@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2025 Abdallah
 # Licensed under the GNU GPLv3
+# Repo: https://github.com/abdallahbn31/reused-r-bitcoin
 """
 compute_z.py
 
