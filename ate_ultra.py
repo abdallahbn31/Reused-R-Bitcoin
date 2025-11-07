@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # Copyright (c) 2025 Abdallah
 # Licensed under the GNU GPLv3
+# Repo: https://github.com/abdallahbn31/reused-r-bitcoin
 # ate_ultra.py
 # Read rawtxs.txt (each line = raw tx hex), parse TX structure (segwit-aware),
 # extract ECDSA DER signatures and Schnorr-like signatures (64/65 bytes).
