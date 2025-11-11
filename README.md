@@ -1394,7 +1394,27 @@ This is a list of addresses that included the r-duplication vulnerability :
 1NaM3Pra49oEDPGUXggUsRqbBXGG6nwyQM
 1LN4yp6rQALjwg53SKsi44teq1fp2v5wqR
 ```
-Let's choose this address
+If you want to check the balances of these addresses, use this script. 
+```bash
+check_adds.py
+```
+usage :
+```bash
+python3 check_adds.py --input adds.txt --output balances.csv
+```
+You need to create a file and put titles in it, for example(adds.txt)
+___________________________________________________
+If you have a large number of addresses, you can split the file using this script.
+```bash
+split.py
+```
+usage :
+```bash
+python3 split.py adds.txt 200
+```
+You can change the number of split lines(200) as you want
+
+anyway, Let's choose this address
 ```bash
 1HXSnvNGK8oYQCyLDkpHNZ2sWPvFsYQcFU
 ```
