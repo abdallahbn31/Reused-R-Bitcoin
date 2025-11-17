@@ -1402,7 +1402,7 @@ usage :
 ```bash
 python3 check_adds.py --input adds.txt --output balances.csv
 ```
-You need to create a file and put titles in it, for example(adds.txt)
+You need to create a file and put addresses in it, for example(adds.txt)
 ___________________________________________________
 If you have a large number of addresses, you can split the file using this script.
 ```bash
